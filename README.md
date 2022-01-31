@@ -28,7 +28,11 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./app/src/main/res/drawable/ss1.jpeg)
+![Example screenshot](./app/src/main/res/drawable/ss2.jpeg)
+![Example screenshot](./app/src/main/res/drawable/ss3.jpeg)
+![Example screenshot](./app/src/main/res/drawable/ss4.jpeg)
+![Example screenshot](./app/src/main/res/drawable/ss5.jpeg)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
