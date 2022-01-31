@@ -31,6 +31,7 @@ List the ready features here:
 ![Example screenshot](./app/src/main/res/drawable/ss1.jpg)
 ![Example screenshot](./app/src/main/res/drawable/ss2.jpeg)
 ![Example screenshot](./app/src/main/res/drawable/ss3.jpeg)
+![Example screenshot](./app/src/main/res/drawable/ss4.jpeg)
 
 
 ## Setup
