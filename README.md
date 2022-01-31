@@ -1,4 +1,4 @@
-# agrostock-for-checkingfuits
+# agrostock-for-checkingfruits
 > This project was created as the capstone of the agrostock team project. Where the function of this application is to check the state of the fruits
 whether the fruit is rotten or not.
 
