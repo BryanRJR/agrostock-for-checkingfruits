@@ -28,8 +28,9 @@ List the ready features here:
 
 
 ## Screenshots
-![Alt text](/app/src/main/res/drawable/ss1.jpeg?raw=true "Optional title")
-
+![Example screenshot](./app/src/main/res/drawable/ss1.jpg)
+![Example screenshot](./app/src/main/res/drawable/ss2.jpeg)
+![Example screenshot](./app/src/main/res/drawable/ss3.jpeg)
 
 
 ## Setup
