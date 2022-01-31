@@ -28,8 +28,7 @@ List the ready features here:
 
 
 ## Screenshots
-![Alt text](./app/src/main/res/drawable/ss1.jpeg "Optional title")
-
+![Alt text](/app/src/main/res/drawable/ss1.jpeg?raw=true "Optional title")
 
 
 
