@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tampilan_hasil">Tampilan Hasil</string>
+    <string name="title_checker">Kamera</string>
+    <string name="app_name">agroStock</string>
+    <string name="title_notifications">Notifikasi</string>
+    <string name="content_title">Judul Konten</string>
+    <string name="capture">Ambil Foto</string>
+    <string name="result">Hasil:</string>
+    <string name="item_name">Nama makanan</string>
+    <string name="desc_dashboard">sudah makan buah apa hari ini?</string>
+    <string name="desc_topic">Berita Pembusukan Makanan</string>
+    <string name="appwidget_text">Dibuat dengan \\u2764 oleh Tim AgroStock</string>
+    <string name="sign_in_with_google">Masuk dengan Google</string>
+    <string name="sign_out">Keluar</string>
+</resources>

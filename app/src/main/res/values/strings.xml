@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">agroStock</string>
+
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_checker">Camera</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="content_placeholder" translatable="false">Lorem Ipsum Dolor Sit Amet</string>
+    <string name="content_title">Content Title</string>
+    <string name="capture">Take Photo</string>
+    <string name="result">Result:</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_condition" translatable="false">100%</string>
+    <string name="desc_dashboard">what fruit have you eaten today?</string>
+    <string name="desc_topic">Food spoilage news</string>
+    <string name="appwidget_text">Build with \u2764 by AgroStock Team </string>
+
+    <string name="sign_in_with_google">Sign in With Google</string>
+    <string name="sign_out">Sign out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="predict_fruits">Predict Fruits</string>
+    <string name="images_preview">images preview</string>
+    <string name="tampilan_hasil">Result</string>
+    <string name="loading_server">Waiting for Server</string>
+    <string name="result_predict" translatable="false">File = %1$s\nResult = %2$s</string>
+</resources>

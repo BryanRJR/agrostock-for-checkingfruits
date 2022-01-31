@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="isFruits"
+            type="com.argostock.capstoneapp.ui.recyclereinfo.FruitData" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:clickable="true"
+        android:elevation="4dp"
+        android:focusable="true"
+        app:cardCornerRadius="20dp"
+        app:cardMaxElevation="4dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/greenSec">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                android:padding="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardCornerRadius="20dp">
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:id="@+id/animalImg"
+                        android:imageUrl="@{isFruits.img}"
+                        android:scaleType="centerCrop"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
+                        android:src="@color/white"/>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/animalName"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:text="@{isFruits.name}"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/animalInfo"
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+                        android:gravity="center"
+                        android:fontFamily="@font/googlesans_regular"
+                        android:layout_gravity="center"
+                        android:text="@{isFruits.info}"
+                        android:layout_margin="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

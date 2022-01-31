@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".camera.CameraFragment"
+    android:id="@+id/layout_root">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="270dp"
+        android:layout_height="360dp"
+        android:elevation="5dp"
+        app:cardBackgroundColor="@color/bg_cardview"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="250dp"
+            android:fontFamily="@font/googlesans_regular"
+            android:text="Choose image below"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/image_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/images_preview"
+            android:scaleType="centerCrop"
+            android:src="@drawable/buahbusuk"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_preview_sample"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="80dp"
+            android:contentDescription="@string/images_preview"
+            android:src="@drawable/image"
+            android:visibility="visible" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button_predict"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/greenSec"
+        android:visibility="gone"
+        android:text="@string/predict_fruits"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:cornerRadius="12dp"
+        android:elevation="2dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintStart_toStartOf="@+id/cardView" />
+
+    <Button
+        android:id="@+id/button_capture"
+        android:layout_width="wrap_content"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        tools:ignore="RtlHardcoded"
+        android:text="@string/capture"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="@string/result"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button_capture"
+        app:layout_constraintStart_toStartOf="@+id/button_capture"
+        app:layout_constraintTop_toBottomOf="@+id/button_capture" />
+
+    <TextView
+        android:id="@+id/tv_result_predict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/tampilan_hasil"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_result"
+        app:layout_constraintStart_toStartOf="@+id/tv_result"
+        app:layout_constraintTop_toBottomOf="@+id/tv_result" />
+
+
+    <ProgressBar
+        android:id="@+id/prog_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="@+id/button_capture"
+        app:layout_constraintStart_toStartOf="@+id/button_capture"
+        app:layout_constraintTop_toBottomOf="@+id/button_capture" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
